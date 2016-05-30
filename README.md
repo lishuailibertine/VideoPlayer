@@ -58,4 +58,4 @@ typedef NS_ENUM(NSInteger, LSVideoPlayerPlaybackState) {
 };
 ```
 ##效果预览
-![]()  
+![效果预览](https://raw.githubusercontent.com/lishuailibertine/VideoPlayer/master/SLVideoPlay/image/image.png)
