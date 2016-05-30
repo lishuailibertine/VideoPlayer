@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CE00B4196F850100A6A77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00B3196F850100A6A77F /* Foundation.framework */; };
+		36CE00B6196F850100A6A77F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00B5196F850100A6A77F /* CoreGraphics.framework */; };
+		36CE00B8196F850100A6A77F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00B7196F850100A6A77F /* UIKit.framework */; };
+		36CE00BE196F850100A6A77F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CE00BC196F850100A6A77F /* InfoPlist.strings */; };
+		36CE00C0196F850100A6A77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE00BF196F850100A6A77F /* main.m */; };
+		36CE00C4196F850100A6A77F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE00C3196F850100A6A77F /* AppDelegate.m */; };
+		36CE00C6196F850100A6A77F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CE00C5196F850100A6A77F /* Images.xcassets */; };
+		36CE00CD196F850100A6A77F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00CC196F850100A6A77F /* XCTest.framework */; };
+		36CE00CE196F850100A6A77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00B3196F850100A6A77F /* Foundation.framework */; };
+		36CE00CF196F850100A6A77F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00B7196F850100A6A77F /* UIKit.framework */; };
+		36CE00D7196F850100A6A77F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CE00D5196F850100A6A77F /* InfoPlist.strings */; };
+		36CE00D9196F850100A6A77F /* SLVideoPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE00D8196F850100A6A77F /* SLVideoPlayTests.m */; };
+		36CE00E3196F864300A6A77F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00E2196F864300A6A77F /* AVFoundation.framework */; };
+		36CE00E5196F865300A6A77F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE00E4196F865300A6A77F /* CoreMedia.framework */; };
+		36CE00EE196F86F700A6A77F /* SLVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE00ED196F86F700A6A77F /* SLVideoPlayerViewController.m */; };
+		36CE00F1196F871B00A6A77F /* SLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE00F0196F871B00A6A77F /* SLVideoView.m */; };
+		36CE00F4196FEA7700A6A77F /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE00F3196FEA7700A6A77F /* play_button@2x.png */; };
+		36D1FBBA197501E600AFB21A /* SLCustomBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D1FBB7197501E600AFB21A /* SLCustomBottomView.m */; };
+		36D1FBBB197501E600AFB21A /* XCProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D1FBB9197501E600AFB21A /* XCProgressSlider.m */; };
+		36D1FBBE197503ED00AFB21A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D1FBBC197503ED00AFB21A /* play.png */; };
+		36D1FBBF197503ED00AFB21A /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D1FBBD197503ED00AFB21A /* play2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36CE00D0196F850100A6A77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36CE00A8196F850100A6A77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36CE00AF196F850100A6A77F;
+			remoteInfo = SLVideoPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36CE00B0196F850100A6A77F /* SLVideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLVideoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE00B3196F850100A6A77F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36CE00B5196F850100A6A77F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36CE00B7196F850100A6A77F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36CE00BB196F850100A6A77F /* SLVideoPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLVideoPlay-Info.plist"; sourceTree = "<group>"; };
+		36CE00BD196F850100A6A77F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36CE00BF196F850100A6A77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36CE00C1196F850100A6A77F /* SLVideoPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLVideoPlay-Prefix.pch"; sourceTree = "<group>"; };
+		36CE00C2196F850100A6A77F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36CE00C3196F850100A6A77F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36CE00C5196F850100A6A77F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36CE00CB196F850100A6A77F /* SLVideoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLVideoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE00CC196F850100A6A77F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36CE00D4196F850100A6A77F /* SLVideoPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLVideoPlayTests-Info.plist"; sourceTree = "<group>"; };
+		36CE00D6196F850100A6A77F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36CE00D8196F850100A6A77F /* SLVideoPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLVideoPlayTests.m; sourceTree = "<group>"; };
+		36CE00E2196F864300A6A77F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		36CE00E4196F865300A6A77F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		36CE00EC196F86F700A6A77F /* SLVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVideoPlayerViewController.h; sourceTree = "<group>"; };
+		36CE00ED196F86F700A6A77F /* SLVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVideoPlayerViewController.m; sourceTree = "<group>"; };
+		36CE00EF196F871B00A6A77F /* SLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVideoView.h; sourceTree = "<group>"; };
+		36CE00F0196F871B00A6A77F /* SLVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVideoView.m; sourceTree = "<group>"; };
+		36CE00F3196FEA7700A6A77F /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		36D1FBB6197501E600AFB21A /* SLCustomBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCustomBottomView.h; sourceTree = "<group>"; };
+		36D1FBB7197501E600AFB21A /* SLCustomBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCustomBottomView.m; sourceTree = "<group>"; };
+		36D1FBB8197501E600AFB21A /* XCProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProgressSlider.h; sourceTree = "<group>"; };
+		36D1FBB9197501E600AFB21A /* XCProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProgressSlider.m; sourceTree = "<group>"; };
+		36D1FBBC197503ED00AFB21A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		36D1FBBD197503ED00AFB21A /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CE00AD196F850100A6A77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE00E5196F865300A6A77F /* CoreMedia.framework in Frameworks */,
+				36CE00E3196F864300A6A77F /* AVFoundation.framework in Frameworks */,
+				36CE00B6196F850100A6A77F /* CoreGraphics.framework in Frameworks */,
+				36CE00B8196F850100A6A77F /* UIKit.framework in Frameworks */,
+				36CE00B4196F850100A6A77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE00C8196F850100A6A77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE00CD196F850100A6A77F /* XCTest.framework in Frameworks */,
+				36CE00CF196F850100A6A77F /* UIKit.framework in Frameworks */,
+				36CE00CE196F850100A6A77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CE00A7196F850100A6A77F = {
+			isa = PBXGroup;
+			children = (
+				36CE00B9196F850100A6A77F /* SLVideoPlay */,
+				36CE00D2196F850100A6A77F /* SLVideoPlayTests */,
+				36CE00B2196F850100A6A77F /* Frameworks */,
+				36CE00B1196F850100A6A77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CE00B1196F850100A6A77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00B0196F850100A6A77F /* SLVideoPlay.app */,
+				36CE00CB196F850100A6A77F /* SLVideoPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CE00B2196F850100A6A77F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00E4196F865300A6A77F /* CoreMedia.framework */,
+				36CE00E2196F864300A6A77F /* AVFoundation.framework */,
+				36CE00B3196F850100A6A77F /* Foundation.framework */,
+				36CE00B5196F850100A6A77F /* CoreGraphics.framework */,
+				36CE00B7196F850100A6A77F /* UIKit.framework */,
+				36CE00CC196F850100A6A77F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36CE00B9196F850100A6A77F /* SLVideoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00C2196F850100A6A77F /* AppDelegate.h */,
+				36CE00C3196F850100A6A77F /* AppDelegate.m */,
+				36CE00EC196F86F700A6A77F /* SLVideoPlayerViewController.h */,
+				36CE00ED196F86F700A6A77F /* SLVideoPlayerViewController.m */,
+				36CE00EF196F871B00A6A77F /* SLVideoView.h */,
+				36CE00F0196F871B00A6A77F /* SLVideoView.m */,
+				36D1FBB5197501E600AFB21A /* BottomView */,
+				36CE00C5196F850100A6A77F /* Images.xcassets */,
+				36CE00F2196FEA5D00A6A77F /* image */,
+				36CE00BA196F850100A6A77F /* Supporting Files */,
+			);
+			path = SLVideoPlay;
+			sourceTree = "<group>";
+		};
+		36CE00BA196F850100A6A77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00BB196F850100A6A77F /* SLVideoPlay-Info.plist */,
+				36CE00BC196F850100A6A77F /* InfoPlist.strings */,
+				36CE00BF196F850100A6A77F /* main.m */,
+				36CE00C1196F850100A6A77F /* SLVideoPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36CE00D2196F850100A6A77F /* SLVideoPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00D8196F850100A6A77F /* SLVideoPlayTests.m */,
+				36CE00D3196F850100A6A77F /* Supporting Files */,
+			);
+			path = SLVideoPlayTests;
+			sourceTree = "<group>";
+		};
+		36CE00D3196F850100A6A77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CE00D4196F850100A6A77F /* SLVideoPlayTests-Info.plist */,
+				36CE00D5196F850100A6A77F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36CE00F2196FEA5D00A6A77F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				36D1FBBC197503ED00AFB21A /* play.png */,
+				36D1FBBD197503ED00AFB21A /* play2.png */,
+				36CE00F3196FEA7700A6A77F /* play_button@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		36D1FBB5197501E600AFB21A /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				36D1FBB6197501E600AFB21A /* SLCustomBottomView.h */,
+				36D1FBB7197501E600AFB21A /* SLCustomBottomView.m */,
+				36D1FBB8197501E600AFB21A /* XCProgressSlider.h */,
+				36D1FBB9197501E600AFB21A /* XCProgressSlider.m */,
+			);
+			path = BottomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CE00AF196F850100A6A77F /* SLVideoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CE00DC196F850100A6A77F /* Build configuration list for PBXNativeTarget "SLVideoPlay" */;
+			buildPhases = (
+				36CE00AC196F850100A6A77F /* Sources */,
+				36CE00AD196F850100A6A77F /* Frameworks */,
+				36CE00AE196F850100A6A77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLVideoPlay;
+			productName = SLVideoPlay;
+			productReference = 36CE00B0196F850100A6A77F /* SLVideoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36CE00CA196F850100A6A77F /* SLVideoPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CE00DF196F850100A6A77F /* Build configuration list for PBXNativeTarget "SLVideoPlayTests" */;
+			buildPhases = (
+				36CE00C7196F850100A6A77F /* Sources */,
+				36CE00C8196F850100A6A77F /* Frameworks */,
+				36CE00C9196F850100A6A77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36CE00D1196F850100A6A77F /* PBXTargetDependency */,
+			);
+			name = SLVideoPlayTests;
+			productName = SLVideoPlayTests;
+			productReference = 36CE00CB196F850100A6A77F /* SLVideoPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CE00A8196F850100A6A77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = shuaili;
+				TargetAttributes = {
+					36CE00CA196F850100A6A77F = {
+						TestTargetID = 36CE00AF196F850100A6A77F;
+					};
+				};
+			};
+			buildConfigurationList = 36CE00AB196F850100A6A77F /* Build configuration list for PBXProject "SLVideoPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36CE00A7196F850100A6A77F;
+			productRefGroup = 36CE00B1196F850100A6A77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CE00AF196F850100A6A77F /* SLVideoPlay */,
+				36CE00CA196F850100A6A77F /* SLVideoPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CE00AE196F850100A6A77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D1FBBE197503ED00AFB21A /* play.png in Resources */,
+				36D1FBBF197503ED00AFB21A /* play2.png in Resources */,
+				36CE00F4196FEA7700A6A77F /* play_button@2x.png in Resources */,
+				36CE00BE196F850100A6A77F /* InfoPlist.strings in Resources */,
+				36CE00C6196F850100A6A77F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE00C9196F850100A6A77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE00D7196F850100A6A77F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CE00AC196F850100A6A77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D1FBBB197501E600AFB21A /* XCProgressSlider.m in Sources */,
+				36CE00C4196F850100A6A77F /* AppDelegate.m in Sources */,
+				36CE00F1196F871B00A6A77F /* SLVideoView.m in Sources */,
+				36CE00C0196F850100A6A77F /* main.m in Sources */,
+				36D1FBBA197501E600AFB21A /* SLCustomBottomView.m in Sources */,
+				36CE00EE196F86F700A6A77F /* SLVideoPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE00C7196F850100A6A77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE00D9196F850100A6A77F /* SLVideoPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36CE00D1196F850100A6A77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36CE00AF196F850100A6A77F /* SLVideoPlay */;
+			targetProxy = 36CE00D0196F850100A6A77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36CE00BC196F850100A6A77F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CE00BD196F850100A6A77F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36CE00D5196F850100A6A77F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CE00D6196F850100A6A77F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36CE00DA196F850100A6A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36CE00DB196F850100A6A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CE00DD196F850100A6A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLVideoPlay/SLVideoPlay-Prefix.pch";
+				INFOPLIST_FILE = "SLVideoPlay/SLVideoPlay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36CE00DE196F850100A6A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLVideoPlay/SLVideoPlay-Prefix.pch";
+				INFOPLIST_FILE = "SLVideoPlay/SLVideoPlay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36CE00E0196F850100A6A77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SLVideoPlay.app/SLVideoPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLVideoPlay/SLVideoPlay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SLVideoPlayTests/SLVideoPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36CE00E1196F850100A6A77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SLVideoPlay.app/SLVideoPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLVideoPlay/SLVideoPlay-Prefix.pch";
+				INFOPLIST_FILE = "SLVideoPlayTests/SLVideoPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CE00AB196F850100A6A77F /* Build configuration list for PBXProject "SLVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE00DA196F850100A6A77F /* Debug */,
+				36CE00DB196F850100A6A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CE00DC196F850100A6A77F /* Build configuration list for PBXNativeTarget "SLVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE00DD196F850100A6A77F /* Debug */,
+				36CE00DE196F850100A6A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CE00DF196F850100A6A77F /* Build configuration list for PBXNativeTarget "SLVideoPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE00E0196F850100A6A77F /* Debug */,
+				36CE00E1196F850100A6A77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36CE00A8196F850100A6A77F /* Project object */;
+}
